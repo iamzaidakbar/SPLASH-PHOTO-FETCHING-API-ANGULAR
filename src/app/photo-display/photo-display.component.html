@@ -1,0 +1,5 @@
+<button (click)="onClickFetchImage()">Fetch New Image</button>
+
+<ng-container *ngIf="imgUrl">
+    <img [src]="imgUrl">
+</ng-container>

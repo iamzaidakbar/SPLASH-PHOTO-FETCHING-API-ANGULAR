@@ -1,0 +1,21 @@
+button{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 10%;
+    padding: 15px 25px;
+    border-radius: 25px;
+    border: none;
+    background-color: rgb(15, 124, 214);
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: 0.2s ease-in-out;
+}
+button:hover{
+    background-color: rgb(29, 173, 240);
+}
+img{
+    width: 100vw;
+    height: 100vh;
+}
